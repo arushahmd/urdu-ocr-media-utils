@@ -1,0 +1,7 @@
+/output
+#/trained_models
+*.xlsx
+*.csv
+*.pyc
+*.jpg
+*.pdf

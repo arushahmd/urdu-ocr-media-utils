@@ -1,0 +1,6 @@
+pdf_ocr_pipeline/trained_models/CNN_RNN_CTC/MMA-UD/Tensorboard
+output/
+.idea
+__pycache__
+*.jpg
+

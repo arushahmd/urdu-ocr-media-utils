@@ -1,0 +1,17 @@
+PDF_PATH: "" # path to pdf file
+PAGE_IMAGES_PATH: "" # path to page images
+LINE_IMAGES_PATH: "" # path to line images
+EXTRACT_PAGES: True
+DEBUG: False
+# Save Path is where images and the texts will be saved, this folder will have images and texts directories
+SAVE_PATH: "Annotated Data/Pages"
+# Path which have images and texts directories which have page images and text file for page texts.
+DIR_IMAGES_TEXTS_MAIN: ""
+LINE_DATA_SAVE_PATH: ""
+STATS_LINE_DATA: ""
+
+
+book_name_prefixes: [
+    # contains the name prefixes of pdf books and their corresponding text files.
+    # e.g. Aina Khan-e-Iqbal
+]

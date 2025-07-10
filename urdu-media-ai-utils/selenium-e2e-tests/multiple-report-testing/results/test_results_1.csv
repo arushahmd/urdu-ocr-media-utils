@@ -1,0 +1,8 @@
+Date,TaskID,Username,Email,SignIn,AudioTranscription,KeywordBasedSearch,SubtitleGeneration,NewsTickerAnalysis,TrendingTopics,DetailedReportsGeneration
+2024-10-04 11:13:02,7cc7c56b-259d-43fe-a5b3-6e362989dbb2,guest1,guest1@gmail.com,Passed,Failed,Failed,Failed,Failed,Failed,Failed
+2024-10-04 11:16:31,03c25096-57b4-4d6c-be72-9f58eb234f8a,guest1,guest1@gmail.com,Passed,Passed,Failed,Failed,Failed,Failed,Failed
+2024-10-04 11:19:45,253ad1a5-981a-42f6-bb0b-aa7a80c7a7b5,guest1,guest1@gmail.com,Passed,Passed,Failed,Failed,Failed,Failed,Failed
+2024-10-04 11:36:48,8c3e4573-7b0a-4572-8fb3-6ffb52bb6245,guest1,guest1@gmail.com,Passed,Passed,Failed,Failed,Failed,Failed,Failed
+2024-10-04 11:44:25,d6fe4fcf-fe69-4f51-ac32-17f3d317f386,guest1,guest1@gmail.com,Passed,Passed,Passed,Failed,Failed,Failed,Failed
+2024-10-25 07:22:52,d15682c4-bb2c-4601-b7d7-cd17d1c173ef,guest1,guest,Passed,Passed,Passed,Failed,Failed,Failed,Failed
+2024-10-25 07:27:08,29d9e6ba-7653-4ebd-8a69-0a55eaa5e38e,guest1,guest,Passed,Passed,Passed,Failed,Failed,Failed,Failed

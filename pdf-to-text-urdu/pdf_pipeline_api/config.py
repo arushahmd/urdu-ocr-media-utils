@@ -1,0 +1,1 @@
+DEBUG =  True # decides rather to save images of lines and pages or not

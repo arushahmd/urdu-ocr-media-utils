@@ -1,0 +1,25 @@
+Date,TaskID,Username,Email,SignIn,AudioTranscription,SubtitleGeneration,KeywordBasedSearch,SpeakerBasedSearch,NewsTickerAnalysis,TrendingTopics
+2024-10-25 08:08:53,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest10,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:08:56,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest5,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:08:59,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest11,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:09:01,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest9,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:09:01,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest6,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:09:03,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest12,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:09:05,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest8,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:09:06,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest7,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:09:08,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest4,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:09:09,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest1,guest,Passed,Passed,Failed,Passed,Passed,Passed,Failed
+2024-10-25 08:09:09,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest2,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:09:09,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest3,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:14,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest14,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:17,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest15,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:18,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest13,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:19,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest16,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:21,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest19,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:27,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest18,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:31,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest20,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:33,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest17,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:44,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest24,guest,Passed,Passed,Failed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:47,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest23,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:48,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest22,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed
+2024-10-25 08:11:51,10a47f9a-14db-4fd1-82bd-e1086606b70b,guest21,guest,Passed,Passed,Passed,Passed,Passed,Passed,Failed

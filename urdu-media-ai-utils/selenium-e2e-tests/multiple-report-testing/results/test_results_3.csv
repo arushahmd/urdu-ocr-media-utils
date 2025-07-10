@@ -1,0 +1,4 @@
+Date,TaskID,Username,Email,SignIn,AudioTranscription,KeywordBasedSearch,SubtitleGeneration,NewsTickerAnalysis,TrendingTopics,DetailedReportsGeneration
+2024-10-04 11:12:00,4ad2e41a-9653-4a4b-9420-7dbe809caec0,guest1,guest1@gmail.com,Passed,Failed,Failed,Failed,Failed,Failed,Failed
+2024-10-04 11:12:00,4ad2e41a-9653-4a4b-9420-7dbe809caec0,guest2,guest2@gmail.com,Passed,Failed,Failed,Failed,Failed,Failed,Failed
+2024-10-04 11:12:01,4ad2e41a-9653-4a4b-9420-7dbe809caec0,guest3,guest3@gmail.com,Passed,Failed,Failed,Failed,Failed,Failed,Failed

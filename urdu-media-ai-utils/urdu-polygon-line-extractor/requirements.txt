@@ -1,0 +1,5 @@
+# Python Version
+python_version >=3.10,<3.11
+
+# Required Libraries
+Pillow~=10.0.0
