@@ -1,86 +1,101 @@
 # 🧾 Urdu OCR & Media Utilities
 
-A modular toolkit for processing Urdu PDFs, images, and video content using AI-powered tools — including OCR APIs, polygon-based annotation extractors, YouTube video downloaders, and Selenium-based end-to-end testing workflows. Built to support real-world Urdu media processing, automation, and research tasks.
+A modular AI-powered toolkit for processing Urdu PDFs, images, and video content. This repository combines tools originally developed across **two real-world projects**:
+
+- 📄 `pdf-to-urdu-text`: A Django-based OCR API for converting scanned Urdu PDFs and images into structured text.
+- 🧪 `urdu-media-ai-utils`: Utility modules for Urdu text annotation, YouTube media downloading, and end-to-end testing.
+
+These components were merged to streamline the entire Urdu media processing pipeline — from input to automation-ready outputs — for research, NLP tasks, or product deployment.
 
 ---
 
 ## 🧠 What’s Included
 
-| Module | Description |
-|--------|-------------|
-| `ocr-api/` | Perform OCR on scanned Urdu PDFs or image files via a FastAPI/Django backend. Returns structured line-by-line or page-by-page text. |
-| `urdu-polygon-line-extractor/` | Extracts individual line images from Urdu book pages using polygon annotations (e.g. from VoTT). Supports OCR pipeline preprocessing. |
-| `video-downloader/` | A REST API and CLI tool to download YouTube videos for offline media processing or transcription. |
-| `selenium-e2e-tests/` | End-to-end Selenium testing suite simulating multi-user activity on Urdu transcription and video analysis platforms. |
+| Module | Source | Description |
+|--------|--------|-------------|
+| `ocr-api/` | from `pdf-to-urdu-text` | Perform OCR on scanned Urdu PDFs or image files via a Django backend. Returns structured line-by-line or page-by-page text in JSON. |
+| `urdu-polygon-line-extractor/` | from `urdu-media-ai-utils` | Extracts individual line images from Urdu book pages using polygon annotations (VoTT). Supports OCR pipeline preprocessing. |
+| `video-downloader/` | from `urdu-media-ai-utils` | A Django REST API and CLI tool to download YouTube videos for offline processing and transcription. |
+| `selenium-e2e-tests/` | from `urdu-media-ai-utils` | End-to-end Selenium testing suite for simulating multi-user activity across transcription and OCR platforms. |
 
 ---
 
 ## 🚀 Use Cases
 
-- Automated Urdu PDF & image OCR
-- Line-level annotation preprocessing
-- YouTube-based Urdu video transcription workflows
-- Test automation for Urdu language platforms
+- 🔍 Urdu PDF & image text extraction via OCR
+- ✂️ Annotation-based line cropping for scanned Urdu books
+- 📥 Download and archive Urdu YouTube videos for transcription or processing
+- 🧪 UI-based test automation for Urdu OCR and media systems
 
 ---
 
 ## 🏗 Project Structure
 
 ```bash
+## 🏗 Project Structure
+
+```bash
 urdu-ocr-media-utils/
-├── ocr-api/                         # Upload image/PDF and get Urdu OCR output
-├── urdu-polygon-line-extractor/    # Extract polygon-annotated text lines
-├── video-downloader/               # Download Urdu videos via link lists
-├── selenium-e2e-tests/             # End-to-end UI automation scripts
+├── pdf-to-text-urdu/                    # Urdu PDF OCR backend and tools
+│   ├── notebooks/                       # Jupyter notebooks for OCR evaluation and testing
+│   ├── pdf-ocr-pipeline/                # Main image processing and model inference code
+│   ├── pdf_pipeline_api/                # Django REST API for performing OCR
+│   ├── static/                          # Static assets (CSS/JS/images for frontend)
+│   ├── templates/                       # OCR utility UI (HTML templates)
+│   ├── images/                          # Sample images for testing
+│   ├── logs/                            # Logs generated during OCR
+│   ├── Readme.md                        # Module-specific documentation
+│   └── manage.py
+├── urdu-media-ocr-vision-utils     # utilities, pdf to pages and images and more
+├── urdu-polygon-line-extractor/    # Extract polygon-annotated line images
+├── video-downloader/               # YouTube to .mp4 API
+├── selenium-e2e-tests/             # Multi-user automation testing
 └── README.md                       # Project overview
+
 ```
 
----
+🔧 Setup Instructions
+Each module is standalone and includes its own README.md.
+In general:
 
-## ⚙️ Tech Stack
+Set up a virtual environment
 
-- **Languages & Frameworks**: Python, Django, FastAPI, Selenium, HTML/JS, Bash
-- **Libraries**: OpenCV, Pillow, pytube, youtube_dl, Tesseract OCR
-- **Environments**: Python 3.10+, VS Code, Linux
+Run pip install -r requirements.txt
 
----
+Follow the module instructions to run servers, scripts, or pipelines
 
-## 🔧 Setup Instructions
+📸 Previews (Examples)
+🧾 OCR Output: Urdu PDF → page-wise/line-wise structured text
 
-Each module is self-contained. Navigate to the folder and follow the local `README.md` to:
+✂️ Polygon Extraction: VoTT-annotated Urdu page → cropped lines
 
-- Set up virtual environments
-- Install dependencies (`requirements.txt`)
-- Run the tools or APIs locally
+📥 Video Downloader: YouTube links → local video files
 
----
+🧪 Selenium UI Tests: Simulate login, upload, and transcription steps
 
-## 📸 Previews (Examples)
-
-- OCR Output: Urdu PDF → line-by-line text JSON
-- Polygon Extraction: Annotated Urdu book page → cropped text lines
-- Video Downloader: YouTube URL → local .mp4 file
-- Selenium Test: Automated browser navigation + form input simulation
-
----
-
-## 👨‍💻 Author
-
-**Aroosh Ahmad**  
+👨‍💻 Author
+Aroosh Ahmad
 AI Engineer | Python Developer | Urdu NLP & CV Enthusiast
 
-<p align="left">
-  <a href="https://linkedin.com/in/arooshahmad-data">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/arooshahmad-data">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.kaggle.com/arooshahmad">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" />
-  </a>
-</p>
+<p align="left"> <a href="https://linkedin.com/in/arooshahmad-data"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/arooshahmad-data"> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /> </a> <a href="https://www.kaggle.com/arooshahmad"> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /> </a> </p>
+✨ This is an actively evolving repository focused on real-world Urdu NLP, OCR, and automation systems.
+Contributions, feedback, and collaboration are welcome.
+
+markdown
+Copy
+Edit
 
 ---
 
-> ✨ This toolkit is actively maintained and evolving. Feel free to fork, contribute, or contact for collaboration!
+### ✅ What's Improved
+- Clear mention of **both original repos**
+- Strong positioning of this as a **consolidated OCR + media system**
+- Highlights real-world use cases, structure, and modularity
+- Still simple to navigate and professional in tone
+
+Let me know if you'd like to:
+- Add example screenshots or links to notebooks
+- Convert this to a `README.md` file and push it for you
+- Localize to Urdu/English hybrid for audience in Pakistan or Urdu-speaking researchers
+
+Ready when you are 💪
