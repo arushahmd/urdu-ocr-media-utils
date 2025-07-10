@@ -60,32 +60,16 @@ In general:
 
 Set up a virtual environment
 
+```
 Run pip install -r requirements.txt
-
+```
 Follow the module instructions to run servers, scripts, or pipelines
 
 📸 Previews (Examples)
-🧾 OCR Output: Urdu PDF → page-wise/line-wise structured text
-
-✂️ Polygon Extraction: VoTT-annotated Urdu page → cropped lines
-
-📥 Video Downloader: YouTube links → local video files
-
-🧪 Selenium UI Tests: Simulate login, upload, and transcription steps
-
-👨‍💻 Author
-Aroosh Ahmad
-AI Engineer | Python Developer | Urdu NLP & CV Enthusiast
-
-<p align="left"> <a href="https://linkedin.com/in/arooshahmad-data"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/arooshahmad-data"> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /> </a> <a href="https://www.kaggle.com/arooshahmad"> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /> </a> </p>
-✨ This is an actively evolving repository focused on real-world Urdu NLP, OCR, and automation systems.
-Contributions, feedback, and collaboration are welcome.
-
-markdown
-Copy
-Edit
-
----
+- 🧾 OCR Output: Urdu PDF → page-wise/line-wise structured text
+- ✂️ Polygon Extraction: VoTT-annotated Urdu page → cropped lines
+- 📥 Video Downloader: YouTube links → local video files
+- 🧪 Selenium UI Tests: Simulate login, upload, and transcription steps
 
 ### ✅ What's Improved
 - Clear mention of **both original repos**
@@ -98,4 +82,15 @@ Let me know if you'd like to:
 - Convert this to a `README.md` file and push it for you
 - Localize to Urdu/English hybrid for audience in Pakistan or Urdu-speaking researchers
 
-Ready when you are 💪
+## 👨‍💻 Author
+**Aroosh Ahmad**
+AI Engineer | Python Developer | Urdu NLP & CV Enthusiast
+
+<p align="left"> <a href="https://linkedin.com/in/arooshahmad-data"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /> </a> <a href="https://github.com/arooshahmad-data"> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /> </a> <a href="https://www.kaggle.com/arooshahmad"> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" /> </a> </p>
+
+✨ This is an actively evolving repository focused on real-world Urdu NLP, OCR, and automation systems.
+Contributions, feedback, and collaboration are welcome.
+
+
+
+
